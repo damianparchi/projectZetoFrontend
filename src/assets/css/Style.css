@@ -1,0 +1,65 @@
+.wyszukaj-ramka {
+    border: 2px solid #17A2B8 !important;
+}
+
+.stronaCss {
+    width: 50px !important;
+    border: 2px solid #17A2B8 !important;
+    color: #17A2B8 !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+
+.strzalka {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+}
+
+
+.strzalka-gora {
+    border-bottom: 10px solid white;
+}
+
+.strzalka-dol {
+    border-top: 10px solid white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #606060;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bebebe;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bebebe;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
